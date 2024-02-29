@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.all-order-info{
+    /* border: 1px solid red; */
+    
+}
+
+.orderGallery{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* This creates a shadow effect */
+  margin: 20px;
+}
+
+.ogimg{
+    width: 40%;
+}
+.ogimg img{
+    /* width: 30%; */
+    width: 200px;
+
+}
+
+.oDetails{
+    width: 25%;
+    padding-top: 35px ;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: self-start;
+
+}
+
+.dispatchBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    flex-direction: column;
+
+}
+.OdispBtn{
+    width: 60%;
+    height: 50px;
+
+}

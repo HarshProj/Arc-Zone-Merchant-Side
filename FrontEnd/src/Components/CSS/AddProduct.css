@@ -1,0 +1,117 @@
+.appProduct{
+    /* border: 1px solid red; */
+    display: flex;
+    
+}
+
+.file-Image{
+    /* border: 1px solid red; */
+    height: fit-contents;
+    width: 50%;
+    display: inline-block;
+    padding-bottom: 10px;
+    height: 81vh;
+    /* display: flex; */
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.preview{
+    /* border: 1px solid red; */
+    height: 60vh;
+    width: 80%;
+    margin-top: 87px;
+}
+
+.productInfo-heading{
+    /* margin-top: 10px; */
+    margin-top: 30px;
+    font-size: 40px;
+    padding-bottom: 140px;
+}
+
+.productInfo{
+    width: 50%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+/* .productInfo input{
+    width: 55%;
+    margin-bottom: 75px;
+    height: 50px;
+    border-radius: 15px;
+    padding-left: 20px;
+    
+
+} */
+
+.ap-button{
+    display: block;
+    /* margin-top: 35%; */
+}
+.ap-button button{
+    margin-top: 231px;
+    width: 300px;
+    height: 50px;
+}
+
+
+.ap-input-container{
+    width: 90%;
+    margin-bottom: 22px;
+    height: 50px;
+    border-radius: 15px;
+    padding-left: 20px;
+    /* border: 1px solid red; */
+    display: flex;
+}
+.ap-input-container input{
+    width: 70%;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-left: 40px;
+    
+}
+.ap-input-container label{
+    margin-top: 12px;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+.ap-input-container textarea{
+    margin-left: 40px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 15px;
+    width: 70%;
+    height: 25vh;
+    
+}
+
+
+
+
+.adt-buttons button {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #000000;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .adt-buttons button:hover {
+    background-color: #000000;
+    color: #ffffff;
+  }
+
+
+
+
+
+
