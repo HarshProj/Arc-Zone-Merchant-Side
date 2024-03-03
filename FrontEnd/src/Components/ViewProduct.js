@@ -58,7 +58,7 @@ const token = localStorage.getItem("jwt");
   
   return (
     <div className="viewProduct">
-      <div className="vp_main_body">
+     {pic==''?<h1 className="vp_noproduct">No Product available</h1>: <div className="vp_main_body">
         <div className="main_body_itmes">
           {pic.map((pics) => {
             return [
@@ -98,7 +98,7 @@ const token = localStorage.getItem("jwt");
             ];
           })}
         </div>
-      </div>
+      </div>}
     </div>
   );
 }

@@ -85,10 +85,11 @@ export default function AddProduct() {
       notifyA("Please enter a price of the product")
     }else if(desc == ''){
       notifyA("Please enter a Desc of the product")
-    }else if(url == ''){
-      notifyA("Please select the image of the product")
     }
-
+    // else if(url == ''){
+    //   notifyA("Please select the image of the product")
+    // }
+ 
 
     // console.log(heading,desc,price,pic)
     const data = new FormData()
